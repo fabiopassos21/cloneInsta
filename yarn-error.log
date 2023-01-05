@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add styled-components
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-11.0.17.8-hotspot\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;%ANDROID_HOME%\emulator;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools;C:\Users\fabio\AppData\Local\Microsoft\WindowsApps;C:\src\flutter\bin;C:\Users\fabio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fabio\AppData\Roaming\npm;C:\Users\fabio\AppData\Local\Yarn\bin;C:\Program Files (x86)\Java\jre1.8.0_341;%ANDROID_HOME%\emulator;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;%ANDROID_HOME%\platform-tools;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@expo/cli/-/cli-0.4.11.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:838:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:562:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "cloneinsta",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.9",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
